@@ -1,52 +1,41 @@
 # Final Ecommerce Project
 
-### Register / Login
-![Register Page](screenshots/register.PNG)
-
-### Product Details
-![Details Page](screenshots/details.PNG)
-
-### Home / Product
-![Product Page](screenshots/productcart.PNG)
-
-
-**Author:** Mohamed Ayman Omar  
-**Year:** 2025  
-**License:** © Mohamed Ayman Omar. All rights reserved.
-
----
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)
+![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.3-teal?logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-5.10.0-yellow?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellowgreen?logo=javascript)
 
 ## Description
-Final Ecommerce هو مشروع متجر إلكتروني متكامل تم تطويره باستخدام React + Vite + TailwindCSS.  
-المشروع يستخدم مكتبات حديثة لتسهيل التطوير وتحسين تجربة المستخدم، ويحتوي على صفحات متعددة تشمل المنتجات، الكارت، الـ Wishlist، Categories، Brands، والـ Checkout.
+This is a **full-featured Ecommerce Application** built using **React, Redux, TailwindCSS, Vite, and React Query**.  
+It supports user authentication, product catalog, wishlist, cart functionality, and a checkout process.  
+The project demonstrates **API integration, state management, and responsive UI design**.
 
 ---
 
 ## Features
-- **Products Listing:** عرض جميع المنتجات مع الأسعار والتقييمات.  
-- **Product Details:** صفحة لكل منتج تحتوي على صور متعددة، السعر، التقييم، والوصف.  
-- **Cart & Wishlist:** إضافة المنتجات للكارت أو الـ Wishlist مع تحديث تلقائي.  
-- **Responsive Design:** يعمل على جميع الأجهزة من موبايل للكمبيوتر.  
-- **Authentication:** تسجيل دخول وتسجيل مستخدم جديد.  
-- **Form Validation:** باستخدام React Hook Form و Zod.  
-- **Toast Notifications:** تنبيهات عند إضافة/حذف المنتجات أو حدوث خطأ.  
-- **Loading States:** Skeletons للـ UI أثناء تحميل البيانات.  
+- **User Authentication:** Register / Login with form validation.
+- **Product Details Page:** Shows images, price, and ratings.
+- **Cart & Wishlist:** Add, remove, and update products.
+- **API Integration:** Fetch products and user data dynamically.
+- **Responsive Design:** Works on desktop, tablet, and mobile.
+- **Modern UI:** Built with **TailwindCSS**.
 
 ---
 
-## Libraries & Tools Used
-- **React** – واجهة المستخدم  
-- **Vite** – Build Tool سريع وخفيف  
-- **TailwindCSS** – CSS Utility-first framework  
-- **React Router DOM** – للتنقل بين الصفحات  
-- **React Query (@tanstack/react-query)** – لجلب البيانات من API وإدارتها  
-- **Redux Toolkit** – لإدارة حالة التطبيق (Cart, Wishlist, User)  
-- **React Hook Form + Zod** – للتحقق من صحة النماذج  
-- **Axios** – للتعامل مع API  
-- **React Hot Toast** – لتنبيهات المستخدم  
-- **React Icons** – أيقونات جاهزة  
-- **Vercel** – لنشر المشروع وتشغيل الـ live demo  
+## Screenshots
+
+### Register / Login
+![Register Page](public/screenshots/register.PNG)
+
+### Product Details
+![Details Page](public/screenshots/details.PNG)
+
+### Home / Product Cart
+![Product Page](public/screenshots/productcart.PNG)
 
 ---
 
-## Project Structure
+## Author
+**Mohamed Ayman Omar**  
+© 2025 All rights reserved.
