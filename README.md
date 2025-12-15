@@ -1,8 +1,44 @@
-# React + Vite
+# Final Ecommerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![App Screenshot](link-to-your-screenshot.png)
 
-Currently, two official plugins are available:
+**Author:** Mohamed Ayman Omar  
+**Year:** 2025  
+**License:** © Mohamed Ayman Omar. All rights reserved.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Description
+Final Ecommerce هو مشروع متجر إلكتروني متكامل تم تطويره باستخدام React + Vite + TailwindCSS.  
+المشروع يستخدم مكتبات حديثة لتسهيل التطوير وتحسين تجربة المستخدم، ويحتوي على صفحات متعددة تشمل المنتجات، الكارت، الـ Wishlist، Categories، Brands، والـ Checkout.
+
+---
+
+## Features
+- **Products Listing:** عرض جميع المنتجات مع الأسعار والتقييمات.  
+- **Product Details:** صفحة لكل منتج تحتوي على صور متعددة، السعر، التقييم، والوصف.  
+- **Cart & Wishlist:** إضافة المنتجات للكارت أو الـ Wishlist مع تحديث تلقائي.  
+- **Responsive Design:** يعمل على جميع الأجهزة من موبايل للكمبيوتر.  
+- **Authentication:** تسجيل دخول وتسجيل مستخدم جديد.  
+- **Form Validation:** باستخدام React Hook Form و Zod.  
+- **Toast Notifications:** تنبيهات عند إضافة/حذف المنتجات أو حدوث خطأ.  
+- **Loading States:** Skeletons للـ UI أثناء تحميل البيانات.  
+
+---
+
+## Libraries & Tools Used
+- **React** – واجهة المستخدم  
+- **Vite** – Build Tool سريع وخفيف  
+- **TailwindCSS** – CSS Utility-first framework  
+- **React Router DOM** – للتنقل بين الصفحات  
+- **React Query (@tanstack/react-query)** – لجلب البيانات من API وإدارتها  
+- **Redux Toolkit** – لإدارة حالة التطبيق (Cart, Wishlist, User)  
+- **React Hook Form + Zod** – للتحقق من صحة النماذج  
+- **Axios** – للتعامل مع API  
+- **React Hot Toast** – لتنبيهات المستخدم  
+- **React Icons** – أيقونات جاهزة  
+- **Vercel** – لنشر المشروع وتشغيل الـ live demo  
+
+---
+
+## Project Structure
