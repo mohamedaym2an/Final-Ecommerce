@@ -1,15 +1,15 @@
 # Final Ecommerce Project
 
-![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-14.0.0-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript)
+![React](https://img.shields.io/badge/React-18.0.0-blue?logo=react)
 ![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.3-teal?logo=tailwindcss)
-![Vite](https://img.shields.io/badge/Vite-5.10.0-yellow?logo=vite)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellowgreen?logo=javascript)
 
 ## Description
-This is a **full-featured Ecommerce Application** built using **React, Redux, TailwindCSS, Vite, and React Query**.  
+This is a **full-featured Ecommerce Application** built using **Next.js, TypeScript, React, Redux, TailwindCSS, and React Query**.  
 It supports user authentication, product catalog, wishlist, cart functionality, and a checkout process.  
-The project demonstrates **API integration, state management, and responsive UI design**.
+The project demonstrates **API integration, state management, server-side rendering, and responsive UI design**.
 
 ---
 
@@ -18,6 +18,7 @@ The project demonstrates **API integration, state management, and responsive UI 
 - **Product Details Page:** Shows images, price, and ratings.
 - **Cart & Wishlist:** Add, remove, and update products.
 - **API Integration:** Fetch products and user data dynamically.
+- **Server-Side Rendering (SSR):** Fast initial load and SEO-friendly pages.
 - **Responsive Design:** Works on desktop, tablet, and mobile.
 - **Modern UI:** Built with **TailwindCSS**.
 
@@ -39,3 +40,4 @@ The project demonstrates **API integration, state management, and responsive UI 
 ## Author
 **Mohamed Ayman Omar**  
 © 2025 All rights reserved.
+
