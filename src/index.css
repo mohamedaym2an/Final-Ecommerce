@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 80px;
+  color: #21313c;
+}
+
+.container {
+  @apply max-w-[1250px] mx-auto px-4 overflow-x-clip;
+}
+
+a,
+button,
+input {
+  @apply transition-all duration-500;
+}
+
+a.active {
+  @apply md:text-mainColor;
+}
+
+.slick-slider {
+  height: 100%;
+}
+.slick-slider div {
+  height: 100%;
+}
+.category-slider-class .slick-slide > div {
+  @apply mx-2;
+}
+.category-slider-class .slick-dots {
+  bottom: -45px;
+}
+.slick-dots li {
+  margin: 0;
+}
+.slick-dots li.slick-active button:before,
+.slick-dots li:hover button:before {
+  @apply text-mainColor;
+}
+.slick-dots li button:before {
+  @apply text-[8px];
+}
