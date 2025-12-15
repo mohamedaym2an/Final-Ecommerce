@@ -1,13 +1,14 @@
 # Final Ecommerce Project
 
 ### Register / Login
-![Register Page](public/screenshots/register.PNG)
+![Register Page](screenshots/register.PNG)
 
 ### Product Details
-![Details Page](public/screenshots/details.PNG)
+![Details Page](screenshots/details.PNG)
 
 ### Home / Product
-![Product Page](public/screenshots/productcart.PNG)
+![Product Page](screenshots/productcart.PNG)
+
 
 **Author:** Mohamed Ayman Omar  
 **Year:** 2025  
